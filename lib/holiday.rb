@@ -71,7 +71,6 @@ def all_supplies_in_holidays(holiday_hash)
           word.capitalize!
         end
         day_name = each_word.join.to_s
-        binding.pry
         puts "  " + day_name + ": "
       supplies.each do |supply|
         string = supply.to_s.capitalize!
